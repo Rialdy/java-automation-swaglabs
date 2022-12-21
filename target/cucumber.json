@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14565332000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User login to the page",
+        "description": "",
+        "id": "testing-demo-login;user-login-to-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 149085709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3952071625,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User go to login page",
+            "match": {
+              "location": "LoginStep.userGoToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Demo Login",
+    "description": "",
+    "id": "testing-demo-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
