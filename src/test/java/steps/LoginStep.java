@@ -1,6 +1,6 @@
 package steps;
 
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Given;
 import pages.LoginPage;
 
 public class LoginStep {
