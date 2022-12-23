@@ -1,5 +1,6 @@
 package steps;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import pages.LoginPage;
 
@@ -12,4 +13,8 @@ public class LoginStep {
         LoginPage.goToPage();
     }
     
+    @And("User click login button")
+    public void clickLoginButton() throws Throwable {
+        LoginPage.clickLoginButton();
+    }
 }
